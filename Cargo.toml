@@ -1,0 +1,17 @@
+[package]
+name = "rest_api_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2.9.0"
+mongodb = "2.7.0"
+bson = "2.7.0"
+serde = "1.0.103"
+futures = "0.3.4"
+env_logger = "0.10"
+dotenv = "0.15.0"
+actix-cors = "0.6.4"
